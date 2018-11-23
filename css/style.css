@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow-x:hidden;
+}
+.inicio{
+  background-color: #222426;
+  height: 100%;
+  margin: 0;
+  margin-top: -28px; 
+  padding: 0;
+}
+.fill {
+  height: 100%;
+  min-height: 100%;
+}
+.center {
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-center{
+  text-align: center !important;
+}
+.btn-confirmar{
+	border: 2px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	width: 200px;
+	height: 50px;
+	font-weight: bold;
+}
+.img-responsive {
+  /*display: block;*/
+  max-width: 100%;
+  height: auto;
+}
+/* email style */
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; /* Somente permite aumentar a caixa verticalmente */
+}
+
+.textarea{
+  height: 120px;
+}
+
+/* style botão de enviar*/
+button[type=submit] {
+  background-color: #8e8e8e;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+button[type=submit]:hover {
+  background-color: #222426;
+}
+.container-mail {
+  border-radius: 5px;
+  width: 250px;
+  margin-top: 40px;
+}
+.input{
+  height: 20px;
+}
+
+/*@media only screen and (min-width: 768px) {
+
+}*/
