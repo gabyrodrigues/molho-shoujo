@@ -1,0 +1,190 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow-x:hidden;
+  background-image: url('fundo-oficial.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.titulo{
+  font-size: 0.7em !important;
+  margin-top: 0.3em !important;
+}
+
+.titulo2{
+  font-size: 1em !important;
+  margin-top: 0.3em !important;
+}
+
+.paragrafo{
+  font-size: 0.4em;
+  margin: 1.5em 0 !important;
+}
+.font-comfortaa{
+  font-family: 'comfortaa' !important;
+}
+.font-dry-brush{
+  font-family: 'dry-brush' !important;
+}
+/*header*/
+  .bg-header{
+    background-size: cover;
+    height: 100%;
+  }
+  .section-config{
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    display: grid;
+    /*grid-template-columns: 10% auto;*/
+    align-content: center;
+    font-size: 200%;
+    /*line-height: 200%;*/
+  }
+
+  .logo{
+    width: 60%;
+  }
+
+  .hr-style{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 1em 0;
+    padding: 0; 
+    margin: 0.4em 0 !important;
+  }
+
+  .header-title{
+    text-align: center;
+    margin: 10.5%;
+    width: 79vw;
+    height: 79vh;
+    left: 10.5%;
+    box-sizing: border-box;
+    background-color: #000;
+    border: 2px solid #fff;
+    padding: 4vw;
+  }
+
+  .header-title h1{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+  }
+/*header*/
+
+/* sobre o evento */
+.div-title{
+    text-align: center;
+    margin: 10.5%;
+    width: 79vw;
+    height: 79vh;
+    left: 10.5%;
+    box-sizing: border-box;
+    background-color: #ffeeba;
+    color: #000;
+    padding: 4vw;
+  }
+.hr-style2{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 1em 0;
+    padding: 0; 
+    margin: 0.4em 0 !important;
+  }
+
+
+.inicio{
+  background-color: #222426;
+  height: 100%;
+  margin: 0;
+  margin-top: -28px; 
+  padding: 0;
+}
+.fill {
+  height: 100%;
+  min-height: 100%;
+}
+.center {
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-center{
+  text-align: center !important;
+}
+.btn-confirmar{
+	border: 2px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	width: 200px;
+	height: 50px;
+	font-weight: bold;
+}
+.img-responsive {
+  /*display: block;*/
+  max-width: 100%;
+  height: auto;
+}
+/* email style */
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; /* Somente permite aumentar a caixa verticalmente */
+}
+
+.textarea{
+  height: 120px;
+}
+
+/* style botão de enviar*/
+button[type=submit] {
+  background-color: #8e8e8e;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+button[type=submit]:hover {
+  background-color: #222426;
+}
+.container-mail {
+  border-radius: 5px;
+  width: 250px;
+  margin-top: 40px;
+}
+.input{
+  height: 20px;
+}
+
+/*@media only screen and (min-width: 768px) {
+
+}*/
+
+/*fontes*/
+
+@font-face {
+  font-family: 'comfortaa';
+  src: url('Comfortaa-Regular.ttf');
+}
+
+@font-face {
+  font-family: dry-brush;
+  src: url(dry-brush.ttf);
+}
