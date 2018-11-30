@@ -9,21 +9,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- resolução: 320 x 568 -->
 </head>
 <body>
-	<!--<div class="inicio">
-		<div class="fill light-white-font">
-			<div id="home" class="fill">
-				<div class="center text-center">
-					<img class="img-responsive" src="http://via.placeholder.com/400x200" alt="placeholder logo">
-				</div>
-				<div class="center text-center">
-					<button class="btn-confirmar">CONFIRMAR INSCRIÇÃO</button>
-				</div>
-			</div>
-		</div>
-	</div>-->
 
 	<section class="bg-header">
 		<a id="home"></a>
@@ -45,10 +34,12 @@
 	<section class="bg-header">
 		<div class="section-config">
 			<div class="conteudo-header">
-				<div class="div-title">
+				<div class="div-title text-center">
 					<h1 class="font-dry-brush titulo2">Sobre o evento</h1>
 					<span class="hr-style2"></span>
-					<p class="font-comfortaa paragrafo">Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>
+					<p class="font-comfortaa paragrafo">
+						A Molho Shoujo Tour será uma roda de conversa entre nós, integrantes do Podcast, e vocês, nossos ouvintes. Com esse evento, queremos nos aproximar mais das pessoas que nos acompanham e dar um rosto as vozes Queremos ver quem são as pessoas que se interessam por discussões do universo Shoujo e o que vocês tem a dizer sobre essa temática. Nos, do Podcast Molho Shoujo, prezamos pelo diálogo e esperamos que essa interação seja o mais proveitosa possível. Contamos com a presença de vocês, até lá!
+					</p>
 					<span class="hr-style2"></span>
 				</div>
 			</div>
@@ -58,7 +49,7 @@
 
 		<div class="section-config">
 			<div class="conteudo-header">
-				<div class="div-title">
+				<div class="div-title text-center">
 					<h1 class="font-dry-brush titulo2">Quem somos</h1>
 					<span class="hr-style2"></span>
 					<p class="font-comfortaa paragrafo">
@@ -70,41 +61,52 @@
 						o debate. E aí, servidos?
 					</p>
 					<span class="hr-style2"></span>
+					<h1 class="font-dry-brush titulo2">Saiba mais</h1>
+					<i class="fa fa-facebook-official icon m-r-45"></i>
+					<i class="fa fa-instagram icon"></i>
 				</div>
 			</div>
 		</div>
 
-		<div class="section-config">
-			<div class="conteudo-header">
-				<div class="div-title">
-					<h1 class="font-dry-brush titulo2">Confirme sua inscrição</h1>
+		<div class="section-config2">
+				<div class="div-title2">
+					<h1 class="font-dry-brush titulo2 text-center">Confirme sua presença!</h1>
 					<span class="hr-style2"></span>
 						<div class="container-mail">
 							<form action="mailto:someone@example.com" method="post">
+								<div class="label">
+									<label for="assunto" class="text-label label">Nome Completo:</label>
+								</div>
+								<div class="form-field">
+									<input type="text" id="nome" class="input">
+								</div>
 
-								<label for="assunto">Nome Completo:</label>
-								<input type="text" id="assunto" class="input">
+								<div class="label">
+									<label for="email" class="text-label">E-mail:</label>
+								</div>
+								<div class="form-field">
+									<input type="text" id="email" class="input">
+								</div>
 
-								<label for="email">E-mail:</label>
-								<input type="text" id="email" class="input">
-
-								<label for="mensagem">Idade:</label>
-								<textarea id="mensagem" class="textarea"></textarea>
-
+								<div class="label">
+									<label for="mensagem" class="text-label label">Idade:</label><br>
+								</div>
+								<div class="form-field">
+									<input type="text" id="idade" class="input-idade">
+								</div>
 								<!-- <button class="button" type="submit" onclick="clicarEnviar()">Enviar</button> -->
-								<button class="btn-confirmar font-dry-brush">Enviar</button>
+								<div class="text-center">
+									<button class="btn-enviar font-dry-brush">Enviar</button>
+								</div>
 
 							</form>
 						</div>
 					<span class="hr-style2"></span>
-					<h1 class="font-dry-brush titulo2">Não se perca!</h1>
 
-					<div class="mapa">
-						<div class="center text-center">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2976860348326!2d-38.577962385739326!3d-3.745194297275238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74bdc4120f3b3%3A0xb408a70df65d7a96!2sInstituto+UFC+Virtual!5e0!3m2!1spt-BR!2sbr!4v1542935330060" width="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div>
+					<div class="mapa text-center">
+						<h1 class="font-dry-brush titulo2">Não se perca!</h1>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2976860348326!2d-38.577962385739326!3d-3.745194297275238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74bdc4120f3b3%3A0xb408a70df65d7a96!2sInstituto+UFC+Virtual!5e0!3m2!1spt-BR!2sbr!4v1542935330060" class="mapa-size" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
-				</div>
 			</div>
 		</div>
 

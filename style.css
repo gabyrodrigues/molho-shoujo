@@ -14,7 +14,7 @@ body {
 }
 
 .titulo2{
-  font-size: 1em !important;
+  font-size: 0.8em !important;
   margin-top: 0.3em !important;
 }
 
@@ -47,6 +47,20 @@ body {
     /*line-height: 200%;*/
   }
 
+  .section-config2{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    display: grid;
+    /*grid-template-columns: 10% auto;*/
+    align-content: center;
+    font-size: 200%;
+    /*line-height: 200%;*/
+  }
+
+
   .logo{
     width: 60%;
   }
@@ -65,7 +79,7 @@ body {
     text-align: center;
     margin: 10.5%;
     width: 79vw;
-    height: 79vh;
+    /*height: 79vh;*/
     left: 10.5%;
     box-sizing: border-box;
     background-color: #000;
@@ -83,10 +97,20 @@ body {
 
 /* sobre o evento */
 .div-title{
-    text-align: center;
     margin: 10.5%;
     width: 79vw;
-    height: 79vh;
+    height: 90%;
+    left: 10.5%;
+    box-sizing: border-box;
+    background-color: #ffeeba;
+    color: #000;
+    padding: 4vw;
+  }
+
+  .div-title2{
+    margin: 10.5%;
+    width: 79vw;
+    height: 90%;
     left: 10.5%;
     box-sizing: border-box;
     background-color: #ffeeba;
@@ -129,24 +153,39 @@ body {
 	background-color: transparent;
 	color: #fff;
 	width: 200px;
-	height: 50px;
+	height: 35px;
 	font-weight: bold;
 }
+
+.icon{
+  font-size: 45px !important;
+}
+
+.m-r-45{
+  margin-right: 45px;
+}
+
 .img-responsive {
   /*display: block;*/
   max-width: 100%;
   height: auto;
 }
 /* email style */
+  .text-label{
+    font-family: 'comfortaa' !important;
+    font-size: 0.45em;
+  }
+
 input[type=text], textarea {
-  width: 100%;
+  width: 70vw;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #cbc0a0;
   border-radius: 2px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical; /* Somente permite aumentar a caixa verticalmente */
+  background-color: #fff8dc;
 }
 
 .textarea{
@@ -164,18 +203,40 @@ button[type=submit] {
 button[type=submit]:hover {
   background-color: #222426;
 }
-.container-mail {
-  border-radius: 5px;
-  width: 250px;
-  margin-top: 40px;
-}
 .input{
-  height: 20px;
+  height: 10px;
 }
 
+.input-idade{
+  height: 10px !important;
+  width: 20vh !important;
+}
+
+.label {
+  margin-top: -20px;
+}
+
+.form-field{
+  margin-top: -15px;
+}
+
+.btn-enviar{
+  border: 2px solid #000;
+  background-color: transparent;
+  color: #000;
+  width: 35vw;
+  height: 35px;
+  font-weight: bold;
+  font-size: 18px;
+}
 /*@media only screen and (min-width: 768px) {
 
 }*/
+
+/*mapa*/
+.mapa-size{
+  width: 100%;
+}
 
 /*fontes*/
 
