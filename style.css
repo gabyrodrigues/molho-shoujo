@@ -317,6 +317,20 @@ button[type=submit]:hover {
 	text-decoration: none;
 	color: #000;
 }
+
+/* Terceira seção */
+
+.event-images {
+	display: none;
+	float: right;
+	margin-left: 40vw;
+	margin-top: -25.3vh;
+}	
+
+.event-image {
+	width: auto;
+	height: 19.7vh;
+}
 	
 /*------ Fim - Desktop ------*/
 
@@ -506,6 +520,10 @@ button[type=submit]:hover {
 		margin-top: 4.5vh;
 		height: 24vh;
 		width: 100%;
+	}
+	
+	.event-images {
+		display: initial;
 	}
 }
 
