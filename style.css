@@ -4,6 +4,7 @@ body {
   margin: 0;
   overflow-x:hidden;
   background-image: url('fundo-oficial.png');
+  /*background-image: url('imgs/Prancheta 26 cópia 6@2x-8.png');*/
   background-repeat: repeat;
   background-size: cover;
 }
@@ -229,9 +230,238 @@ button[type=submit]:hover {
   font-weight: bold;
   font-size: 18px;
 }
-/*@media only screen and (min-width: 768px) {
 
-}*/
+/*------ Início - Desktop ------*/
+
+/* Primeira seção */
+
+.paragrafo span {
+	display: none;
+}
+.desk-break {
+	display: none;
+}
+
+/* Segunda seção */
+
+.logo2 {
+	margin: 4vh auto auto;
+	width: 50%;
+}
+  
+.desk-element {
+	display: none;
+}
+
+.photo-grid-container {
+	display: flex;
+	justify-content: center;
+	margin-left: -1vw;
+}
+
+.photo-grid {
+	width: 40vw;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 4.8vh;
+}
+
+.photo-grid-item {
+	width: 6.8vw; /* um pouco menor que .photo-item para esconder a border */
+	height: 6.8vw;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	transition: -webkit-transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	margin-top: 4.8vh;
+	margin-right: 1.2vw;
+	margin-left:  1.2vw;
+	font-family: "Comfortaa", Comfortaa, sans-serif;
+	font-size: 1vw;
+}
+
+.photo-item {
+	width: 7vw;
+	height: 7vw;
+}
+
+.photo-grid-item div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius: 50%;
+	background: #ebc16d;
+	display: -ms-flexbox;
+	display: box;
+	display: flex;
+	-o-box-pack: center;
+	justify-content: center;
+	-o-box-align: center;
+	align-items: center;
+	font: 16px/1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+.photo-grid-item .back {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.photo-grid-item.flipped {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+	
+/*------ Fim - Desktop ------*/
+
+
+/*------ Início - Responsividade (incompleta) ------*/
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+	.titulo {
+		/*font-size: 3.8vw !important;*/
+		/*font-size: 2.28em !important;*/
+		font-size: calc(2 * 18px + (2 * 36.5 - 2 * 18) * ((100vw - 1024px) / (1920 - 1024))) !important;
+		/*margin-top: -1.7vh !important;*/
+		margin-top: -0.23em !important;
+	}
+	
+	.titulo2 {
+		/*font-size: 2.35vw !important;*/
+		/*font-size: 1.41em !important;*/
+		font-size: calc(2 * 10px + (2 * 22 - 2 * 10) * ((100vw - 1024px) / (1920 - 1024))) !important;
+		margin-top: 0.1em !important;
+		margin-bottom: -1.5rem;
+	}
+	
+	.titulo2 span {
+		display: none;
+	}
+	
+	.paragrafo {
+		/*font-size: 1.22vw;*/
+		/*font-size: 0.73em;*/
+		font-size: calc(2 * 6px + (2 * 8.5 - 2 * 6) * ((100vw - 1024px) / (1920 - 1024))) !important;
+		/*margin: 4.0vh 0 !important;*/
+		margin: 2.41rem 0 !important;
+	}
+	
+	.paragrafo span {
+		display: inline-block;
+	}
+	
+	.mob-break {
+		display: none;
+	}
+	
+	.desk-break {
+		display: inline-block;
+	}
+	
+	.logo {
+		width: 29%;
+	}
+	
+	.hr-style {
+		border-top: 5px solid #fff;
+		margin: -0.1em 0 !important;
+	}
+	
+	.desk-element {
+		display: block;
+	}
+	
+	.bg-header .desk-element {
+		text-align: center;
+	}
+  
+	.header-title {
+		margin: 18.5%;
+		width: 63vw;
+		height: 90vh;
+		left: 18.5%;
+		padding: 2vw;
+	}
+	
+	.header-title p {
+		font-size: calc(2 * 9px + (2 * 11.5 - 2 * 9) * ((100vw - 1024px) / (1920 - 1024))) !important;
+	}
+	
+	.header-title p:last-of-type {
+		margin-top: 6.8vh !important;
+	}
+	
+	.btn-confirmar {
+		width: 34.49%;
+		height: 10.4%;
+		/*font-size: 1.6vw;*/
+		/*font-size: 0.96em;*/
+		font-size: calc(2 * 9px + (2 * 15 - 2 * 9) * ((100vw - 1024px) / (1920 - 1024))) !important;
+		/*margin-top: -1vh;*/
+		margin-top: calc(-10.5 + (200 + 10.5) * ((100vw - 1024px) / (1920 - 1024)));
+	}
+	
+	.icon {
+		font-size: 5.15vw !important;
+		color: #9F803D;
+		margin-top: 5vh;
+	}
+	
+	.icon:hover {
+		color: #ebc16d;
+	}
+	
+	.div-title {
+		margin: 18.5%;
+		width: 20vw;
+		height: 90vh;
+		left: 18.5%;
+		padding: 1vw;
+	}
+	
+	.div-title p {
+		text-align: left;
+		font-size: 0.588em;
+		margin: 3.3vh 0.3vw !important;
+		line-height: 125%;
+	}
+
+	.hr-style2 {
+		border-top: 4px solid #000;
+		margin: 0.4em 0 !important;
+	}
+	
+	#about {
+		width: 40vw;
+		height: 90vh;
+		float: right;
+		margin-top: calc(-90vh - 10vh - 90vh/2); /*gambs*/
+	}
+	
+	.div-title2 {
+		width: 63vw;
+		height: 90vh;
+		left: 10.5%;
+		padding: 4vw;
+		margin-top: calc(-90vh/2 - 4.5vh - 90vh/2); /*gambs*/
+		margin-left: 18.5%;
+	}
+	
+	input[type=text], textarea {
+		width: 16vw;
+		padding: 12px;
+		border: 1px solid #cbc0a0;
+		border-radius: 2px;
+		margin-top: 2.4vh;
+		margin-bottom: 1.2vh;
+	}
+}
+
+/*------ Fim - Responsividade (incompleta) ------*/
+
 
 /*mapa*/
 .mapa-size{

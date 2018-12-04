@@ -22,9 +22,9 @@
 					<img src="logo.png" class="img-responsive logo" alt="Molho shoujo logo">
 					<h1 class="font-dry-brush titulo">Molho Shoujo Tour</h1>
 					<span class="hr-style"></span>
-					<p class="font-comfortaa paragrafo">2 de dezembro<br>Centro de Eventos do Ceará
-					<br>Av. Washignton Soares, 999</p>
-					<p class="font-comfortaa paragrafo">Quer curtir uma roda de conversa sobre o universo shoujo?</p>
+					<p class="font-comfortaa paragrafo">2 de dezembro<br>Centro de Eventos do Ceará<span>, </span>
+					<br class="mob-break">Av. Washington Soares, 999</p>
+					<p class="font-comfortaa paragrafo">Quer curtir uma roda de conversa <br class="desk-break">sobre o universo shoujo?</p>
 
 					<button class="btn-confirmar font-dry-brush">Confirme sua presença</button>
 				</div>
@@ -38,9 +38,12 @@
 					<h1 class="font-dry-brush titulo2">Sobre o evento</h1>
 					<span class="hr-style2"></span>
 					<p class="font-comfortaa paragrafo">
-						A Molho Shoujo Tour será uma roda de conversa entre nós, integrantes do Podcast, e vocês, nossos ouvintes. Com esse evento, queremos nos aproximar mais das pessoas que nos acompanham e dar um rosto as vozes Queremos ver quem são as pessoas que se interessam por discussões do universo Shoujo e o que vocês tem a dizer sobre essa temática. Nos, do Podcast Molho Shoujo, prezamos pelo diálogo e esperamos que essa interação seja o mais proveitosa possível. Contamos com a presença de vocês, até lá!
+						A Molho Shoujo Tour será uma roda de conversa entre nós, integrantes do Podcast, e vocês, nossos ouvintes. Com esse evento, queremos nos aproximar mais das pessoas que nos acompanham e dar um rosto às vozes. Queremos ver quem são as pessoas que se interessam por discussões do universo Shoujo e o que vocês têm a dizer sobre essa temática. Nós, do Podcast Molho Shoujo, prezamos pelo diálogo e esperamos que essa interação seja o mais proveitosa possível. Contamos com a presença de vocês, até lá!
 					</p>
 					<span class="hr-style2"></span>
+					<img src="logo.png" class="desk-element logo2" alt="Molho shoujo logo">
+					<p class="font-comfortaa paragrafo desk-element">2 de dezembro<br>Centro de Eventos do Ceará<br>
+					Av. Washington Soares, 999</p>
 				</div>
 			</div>
 		</div>
@@ -49,7 +52,7 @@
 
 		<div class="section-config">
 			<div class="conteudo-header">
-				<div class="div-title text-center">
+				<div id="about" class="div-title text-center">
 					<h1 class="font-dry-brush titulo2">Quem somos</h1>
 					<span class="hr-style2"></span>
 					<p class="font-comfortaa paragrafo">
@@ -61,9 +64,55 @@
 						o debate. E aí, servidos?
 					</p>
 					<span class="hr-style2"></span>
-					<h1 class="font-dry-brush titulo2">Saiba mais</h1>
-					<i class="fa fa-facebook-official icon m-r-45"></i>
-					<i class="fa fa-instagram icon"></i>
+					<h1 class="font-dry-brush titulo2"><span>Saiba mais<span></h1>
+					<div class=" photo-grid-container desk-element">
+						<div class="photo-grid">
+							<div class="photo-grid-item first-item">
+								<div class="front">
+									<img class="photo-item" src="imgs/fotos/Amanda.png" alt="Amanda"/>
+								</div>
+								<div class="back">Amanda</div>
+							</div>
+							<div class="photo-grid-item second-item">
+								<div class="front">
+									<img class="photo-item" src="imgs/fotos/Ana.png" alt="Ana"/>
+								</div>
+								<div  class="back">Ana</div>
+							</div>
+							<div class="photo-grid-item third-item">
+								<div class="front">
+									<img class="photo-item" src="imgs/fotos/Beatriz.png" alt="Beatriz"/>
+								</div>
+								<div  class="back">Beatriz</div>
+							</div>
+							<div class="photo-grid-item fourth-item">
+								<div class="front">
+									<img class="photo-item" src="imgs/fotos/Gabrielle.png" alt="Gabrielle"/>
+								</div>
+								<div  class="back">Gabrielle</div>
+							</div>
+							<div class="photo-grid-item fifth-item">
+								<div class="front">
+									<img class="photo-item" src="imgs/fotos/Giovanna.png" alt="Giovanna"/>
+								</div>
+								<div  class="back">Giovanna</div>
+							</div>
+							<div class="photo-grid-item sixth-item">
+								<div class="front">
+									<img class="photo-item" src="imgs/fotos/Ingrid.png" alt="Ingrid"/>
+								</div>
+								<div  class="back">Ingrid</div>
+							</div>
+							<div class="photo-grid-item seventh-item">
+								<div class="front">
+									<img class="photo-item" src="imgs/fotos/Laís.png" alt="Laís"/>
+								</div>
+								<div  class="back">Laís</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://www.facebook.com/molhoshoujo"><i class="fa fa-facebook-official icon m-r-45"></i></a>
+					<a href="https://www.instagram.com/molhoshoujo"><i class="fa fa-instagram icon"></i></a>
 				</div>
 			</div>
 		</div>
@@ -72,7 +121,7 @@
 				<div class="div-title2">
 					<h1 class="font-dry-brush titulo2 text-center">Confirme sua presença!</h1>
 					<span class="hr-style2"></span>
-						<div class="container-mail">
+						<div id="event-form" class="container-mail">
 							<form action="mailto:someone@example.com" method="post">
 								<div class="label">
 									<label for="assunto" class="text-label label">Nome Completo:</label>
@@ -109,7 +158,10 @@
 					</div>
 			</div>
 		</div>
-
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+		
 		<!-- <div class="evento">
 			<div class="center text-center">
 				<h1>EVENTO</h1>
