@@ -312,6 +312,11 @@ button[type=submit]:hover {
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
+
+.profile-link {
+	text-decoration: none;
+	color: #000;
+}
 	
 /*------ Fim - Desktop ------*/
 
@@ -319,6 +324,10 @@ button[type=submit]:hover {
 /*------ Início - Responsividade (incompleta) ------*/
 .desk-element {
 	display: none;
+}
+
+.text-center2 {
+	text-align: center;
 }
 /*@media screen and (max-width: 768px){
 	.desk-element {
@@ -464,6 +473,39 @@ button[type=submit]:hover {
 		border-radius: 2px;
 		margin-top: 2.4vh;
 		margin-bottom: 1.2vh;
+		font-family: "Comfortaa", Comfortaa, sans-serif;
+		font-size: 0.8vw;
+	}
+	
+	.btn-enviar{
+		border: 2px solid #000;
+		background-color: transparent;
+		color: #000;
+		width: 6vw;
+		height: 4vh;
+		font-weight: bold;
+		font-size: 1vw;
+		margin-left: calc(16vw - 6vw);
+		margin-top: calc(-1.2vh - 4vh) !important;
+	}
+	
+	.input{
+		height: 4vh;
+	}
+	
+	.input-idade{
+		height: 4vh !important;
+		width: 5vw !important;
+	}
+	
+	.text-center2 {
+		text-align: initial;
+	}
+	
+	.mapa-size{
+		margin-top: 4.5vh;
+		height: 24vh;
+		width: 100%;
 	}
 }
 
