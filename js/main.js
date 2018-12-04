@@ -16,5 +16,5 @@ $('.photo-grid-item').hover(function() {
 	var $self = $(this);
 	hoverTimeout = setTimeout(function() {
 		$('.photo-grid-item').removeClass('flipped');
-	}, 1600);
+	}, 200);
 });

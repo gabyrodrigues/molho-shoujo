@@ -160,6 +160,11 @@ body {
 
 .icon{
   font-size: 45px !important;
+  color: #9F803D;
+}
+
+.icon:hover {
+	color: #ebc16d;
 }
 
 .m-r-45{
@@ -248,10 +253,6 @@ button[type=submit]:hover {
 	margin: 4vh auto auto;
 	width: 50%;
 }
-  
-.desk-element {
-	display: none;
-}
 
 .photo-grid-container {
 	display: flex;
@@ -319,6 +320,15 @@ button[type=submit]:hover {
 
 
 /*------ Início - Responsividade (incompleta) ------*/
+.desk-element {
+	display: none;
+}
+/*@media screen and (max-width: 768px){
+	.desk-element {
+	    display: none;
+	}
+}*/
+
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
 	.titulo {
